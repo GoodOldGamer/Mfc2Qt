@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/templates">
+        <file alias="STRING_TEMPLATE_H">../res/strings.h</file>
+        <file alias="STRING_TEMPLATE_CPP">../res/strings.cpp</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file alias="SAVE_ICO">../res/save.png</file>
+        <file alias="VIEW_DLG_ICO">../res/arrow.png</file>
+		<file alias="PROGRAM_ICO">../res/entry.png</file>
+    </qresource>
+</RCC>
