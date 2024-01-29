@@ -29,7 +29,6 @@
 #include <QList>
 #include <QFile>
 
-#include "error.h"
 #include "objectdata.h"
 #include "resourcedata.h"
 #include "rcrawdata.h"

@@ -25,7 +25,6 @@
 #include <QCloseEvent>
 
 #include "objectdata.h"
-#include "error.h"
 
 class QLabel;
 class QPushButton;
