@@ -38,7 +38,7 @@ public:
     int columnCount(const QModelIndex &parent = QModelIndex()) const override;
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
 
-    void setData(const std::vector<ObjectDataSP> dialogData);
+    void setDialogData(const std::vector<ObjectDataSP> dialogData);
     void clearData();
 
     void showDialog(const QModelIndex &index);

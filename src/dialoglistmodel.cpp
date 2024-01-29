@@ -55,7 +55,7 @@ QVariant DialogListModel::data(const QModelIndex &index, int role) const
     return QVariant();
 }
 
-void DialogListModel::setData(std::vector<ObjectDataSP> dialogData)
+void DialogListModel::setDialogData(std::vector<ObjectDataSP> dialogData)
 {
     beginResetModel();
     this->dialogData = dialogData;

@@ -18,24 +18,24 @@
 #include <assert.h>
 
 #include <QValidator>
-#include <QStringlist>
-#include <QRegexp>
+#include <QStringList>
+#include <QRegExp>
 #include <QDebug>
 
-#include <QFontmetrics>
+#include <QFontMetrics>
 #include <QLabel>
-#include <QLineedit>
-#include <QPushbutton>
-#include <QGroupbox>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QGroupBox>
 #include <QStyle>
-#include <QTextedit>
-#include <QCheckbox>
-#include <QCombobox>
-#include <QListview>
-#include <QTableview>
-#include <QRadiobutton>
-#include <QDatetimeedit>
-#include <QMenubar>
+#include <QTextEdit>
+#include <QCheckBox>
+#include <QComboBox>
+#include <QListView>
+#include <QTableView>
+#include <QRadioButton>
+#include <QDateTimeEdit>
+#include <QMenuBar>
 #include <QMessageBox>
 #include <QFileInfo>
 
@@ -612,7 +612,7 @@ void RCScanner::setupTextData( const ControlData& ctrlData, ObjectDataWP objData
     textData->setText( text );
 
     auto alignent = [&]() -> Qt::AlignmentFlag {
-        switch ( ctrlData.type ) {
+        switch ( ctrlData.ctrlType ) {
         case Control::CTEXT: return Qt::AlignHCenter;
         case Control::RTEXT: return Qt::AlignRight;
         default            : return Qt::AlignLeft;

@@ -31,7 +31,7 @@ SOURCES  += src/main.cpp \
 
 FORMS    += src/mainwindow.ui
 
-QMAKE_CXXFLAGS += -std=c++0x -U__STRICT_ANSI__
+QMAKE_CXXFLAGS += -std=c++0x
 
 RESOURCES += \
             src/ressources.qrc

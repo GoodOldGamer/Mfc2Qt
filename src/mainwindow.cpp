@@ -121,7 +121,7 @@ void ConverterMainWindow::parseRCFile()
 
     dialogImages = rcScanner.getImages();
     dialogStrings = rcScanner.getStringTable();
-    dialogsModel->setData(dialogs);
+    dialogsModel->setDialogData(dialogs);
 }
 
 void ConverterMainWindow::selectOutputDir()
